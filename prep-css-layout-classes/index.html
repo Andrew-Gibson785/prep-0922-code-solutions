@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+img {width: 100%;}
+    body {
+      font-family: optima, sans-serif;
+      background-color:#831b1b;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+    }
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+
+  <div class="container"></div>
+
+  <div class="row">
+
+    <div class="column">
+      <img src="https://posterplus.com.au/files/2020/06/50109-raiders-of-the-lost-ark.jpg"
+    alt="Indian Jones:Raiders of the Lost Ark">
+
+      <h3>Indiana Jones and the Raiders of the Lost Ark</h3>
+
+      <p>The first Indiana Jones movie introduced us to the archeology
+       adventurer Indiana Jones. The movie follows his attempts to
+      stop nazi villains from using the ark of the covenant to take
+    over the world.
+      </p>
+
+    </div>
+
+    <div class="column">
+
+      <img src="https://i.etsystatic.com/8028751/r/il/996d46/2913135305/il_fullxfull.2913135305_tuff.jpg"
+    alt="Indiana Jones:Temple of Doom">
+
+      <h3>Indiana Jones and the Temple of Doom</h3>
+
+      <p>The second movie of the trilogy, the Temple of Doom follows
+      Indiana on an adventure to stop an evil cult from enslaving
+      children of the surrounding villages.
+      </p>
+    </div>
+
+    <div class="column">
+
+      <img src="https://m.media-amazon.com/images/I/91uXYJym1dL._AC_SL1500_.jpg"
+    alt="Indiana Jones:The Last Crusade">
+      <h3>Indiana Jones and the Last Crusade</h3>
+
+      <p> The third movie, and certainly the best of all, the Last Crusade
+  follows Indiana as he is re-united with his father and they adventure
+  to find the Holy Grail and once again stop Nazi's from using for evil means
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
